@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+
+body {
+    background-color: #6540DE;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+header {
+    text-align: center;
+    margin: 10%;
+    font-family: "Playwrite HU";
+}
+
+nav{
+    background-color: #FFE58B;
+    max-width: 25%;
+    height: 65vh;
+    padding: 5%;
+    position: fixed;
+    top: 20px;
+    left: 15px;
+    margin: 2%;
+    margin-top: 6%;
+    border-radius: 20px;
+    border: transparent;
+}
+
+aside {
+    font-family: "Playwrite HU";
+    color: #6540DE;
+    padding-top: 75px;
+    font-size:12pt;
+}
+
+main{
+    background-color: #6540DE;
+    max-width: 60%;
+    margin-left: 18%;
+    padding: 5%;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 70%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 3%;
+    text-align: center;
+    border: 1px;
+    border-radius: 6%;
+}
+
+section img {
+    border: 8px solid #6540DE;
+    border-radius: 10px;
+}
+footer {
+    background-color: #FFE58B;
+}
+
+a {
+    color: #6540DE;
+    font-weight: bold;
+}
+a:hover {
+    color: #FFE58B;
+    background-color: #9D84F0;
+}
+
+.button:hover {
+    color: #FFE58B;
+    background-color: #9D84F0;
+    border: transparent;
+    border-radius: 50px;
+}
+
+.button {
+    width: 270px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 15pt;
+    color: #6540DE;
+    border: transparent;
+    background-color: #FFE58B;
+    font-family: "Playwrite HU";
+    font-weight: 400;
+    transition-duration: 200ms;
+
+}
+
+.buttonAlign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+}
+
+.catPaw {
+    transform: rotate(50deg);
+    
+   
+}
+
+.headText {
+    margin-left: 25%;
+    font-size: 30pt;
+    font-family: "Playwrite HU";
+    color: #FFE58B;
+    background-color: #6540DE;
+    width: 70%;
+    z-index: 2;
+    height:100px;
+    
+}
+
+.row {
+    background-color: #FFE58B;
+    width: 100%;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    border: 5% solid transparent;
+    border-radius: 7%;
+}
+
+.rowWelcome {
+    background-color: #FFE58B;
+    width: 100%;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    border: 5% solid transparent;
+    border-radius: 7%;
+}
+
+.Caption {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 15pt;
+    color: #6540DE;
+}
+
+.meonam {
+    background-color: transparent;
+    position: fixed;
+    margin-top: 20px;
+    height: 35px;
+    transform: rotate(95deg);
+    z-index: 1;
+    top: 180px;
+    left: 20px;
+}
+.meonam:hover {
+    content: "im";
+}
