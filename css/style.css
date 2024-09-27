@@ -67,6 +67,14 @@ section img {
 }
 footer {
     background-color: #FFE58B;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    height: 100px;
+    text-align: center;
+    font-size: 14pt;
+    font-family: "Playwrite HU";
+    color: #6540DE;
+    position: relative;
 }
 
 a {
@@ -165,6 +173,36 @@ a:hover {
     top: 180px;
     left: 20px;
 }
-.meonam:hover {
-    content: "im";
+.meonam:hover + .hide {
+    display: block;
+    position: fixed;
+    width: 120px;
+    height: 70px;
+    font-size: 14pt;
+    font-family: "Playwrite HU";
+    color: #FFE58B;
+    margin-left: 140px;
+    margin-top: 2px;
 }
+.hide {
+    display: none;
+    position: fixed;
+    width: 120px;
+    height: 70px;
+    font-size: 14pt;
+    font-family: "Playwrite HU";
+    color: #FFE58B;
+    margin-left: 140px;
+    margin-top: 2px;
+}
+
+      
+.hoverMeow:hover + .hide {
+    display: block;
+  }
+
+
+.noLink {
+    border-radius: 50px;
+}
+
