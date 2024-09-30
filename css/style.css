@@ -5,6 +5,7 @@ body {
     background-color: #6540DE;
     margin: 0 auto;
     max-width: 100%;
+    cursor: url('../Cursors/catCursor1.png'), auto;
 }
 
 header {
@@ -84,6 +85,7 @@ a {
 a:hover {
     color: #FFE58B;
     background-color: #9D84F0;
+    cursor: url("../Cursors/catCursor2.png"), auto;
 }
 
 .button:hover {
@@ -91,6 +93,7 @@ a:hover {
     background-color: #9D84F0;
     border: transparent;
     border-radius: 50px;
+    cursor: url("../Cursors/catCursor2.png"), auto;
 }
 
 .button {
@@ -116,8 +119,6 @@ a:hover {
 
 .catPaw {
     transform: rotate(50deg);
-    
-   
 }
 
 .headText {
@@ -205,4 +206,3 @@ a:hover {
 .noLink {
     border-radius: 50px;
 }
-
