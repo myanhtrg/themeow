@@ -33,6 +33,13 @@ aside {
     color: #6540DE;
     padding-top: 75px;
     font-size:12pt;
+    position: relative;
+    top: -10px; 
+    z-index: 5;
+}
+h1 {
+    position: relative;
+    z-index: 3;
 }
 
 main{
@@ -78,6 +85,15 @@ footer {
     position: relative;
 }
 
+aside a{
+    text-decoration: none;
+}
+
+aside a:hover {
+    color: #9777ff;
+    background-color: #ffe58b;
+    cursor: url("../Cursors/catCursor2.png"), auto;
+}
 a {
     color: #6540DE;
     font-weight: bold;
@@ -167,13 +183,14 @@ a:hover {
 .meonam {
     background-color: transparent;
     position: fixed;
-    margin-top: 20px;
-    height: 35px;
+    height: 30px;
     transform: rotate(95deg);
     z-index: 1;
     top: 180px;
     left: 20px;
 }
+
+
 .meonam:hover + .hide {
     display: block;
     position: fixed;
@@ -194,7 +211,9 @@ a:hover {
     font-family: "Playwrite HU";
     color: #FFE58B;
     margin-left: 140px;
-    margin-top: 2px;
+    bottom: 750px;
+    left: 20px;
+    z-index: 3;
 }
 
       
@@ -205,4 +224,11 @@ a:hover {
 
 .noLink {
     border-radius: 50px;
+}
+.human {
+    font-family: "Playwrite HU";
+    font-size: 20px;
+    color: #FFE58B;
+    text-align: center;
+   
 }
